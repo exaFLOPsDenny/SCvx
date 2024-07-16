@@ -18,4 +18,7 @@
         뻣어나갈 수 있는 방향은 크게 세가지 아래 방향으로 생각되는데, 이건 하면서 뭐를 더 생각해볼 지 정할 수 있을거 같네요.
         1. 최적화 문제 formulation 개선, 2. 최적화 자체 알고리즘 개선, 3. 실제적용을 위한 문제 셋팅 하에서 구현 코드 작성 (드론, 로보틱스, 자율 주행 등) 
         대표적으로 이와 관련되서 많이 하시는 분 중에 Moritz Diehl 교수님이 계신데, 예를 들어 2304.12908 (arxiv.org) 와 같은 논문도 같이 생각해볼만 합니다. 제가 3과 관련되서는 공대 교수님들과 교류를 좀 해볼 계획입니다. 
-
+    v1. 1. Change obstacles
+        2. Introduce hybrid A* for warm-start
+        3. Choose Optimization method
+        4. DNN
