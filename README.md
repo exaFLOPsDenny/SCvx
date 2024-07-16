@@ -4,6 +4,7 @@
 <summary>
   Research Question
 </summary>
-   토글 안 내용
+   How can a <u>vehicle</u> find an optimized solution in real-time for general situation?
+   
 </details>
 
