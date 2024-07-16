@@ -8,7 +8,7 @@
 
 <details>
         <summary>
-            vehicle
+        &nbsp; vehicle
         </summary>
    
 </details>
