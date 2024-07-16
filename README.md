@@ -8,6 +8,5 @@
 </details>
 
 ## Frame Work
-    1. Find a ward start initial value
-    2. Optimize it
-
+    1. Find a warm start initial value
+    2. Optimization
