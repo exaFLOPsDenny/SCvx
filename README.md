@@ -12,7 +12,7 @@
     2. Optimization
 
 ## Work Flow
-    Q1. [narrow path를 정확히 통과하는 코드를 작성 + DNN 학습 -> warm start 방법 활용]
+### Q1. [narrow path를 정확히 통과하는 코드를 작성 + DNN 학습 -> warm start 방법 활용]
         'narrow path를 정확히 통과하는 코드를 작성' 부분은 'hybrid A* 를 통한 경로 설정 -> warm-start에 활용해서 최적화로 path 구하기' 
         최적화는 SCP를 쓰거나 IPOPT 쓰거나 뭐가 좋은지는 둘다 해봐야 알 수 있을거 같네요. 
         뻣어나갈 수 있는 방향은 크게 세가지 아래 방향으로 생각되는데, 이건 하면서 뭐를 더 생각해볼 지 정할 수 있을거 같네요.
@@ -22,3 +22,4 @@
         2. Introduce hybrid A* for warm-start
         3. Choose Optimization method
         4. DNN
+    
