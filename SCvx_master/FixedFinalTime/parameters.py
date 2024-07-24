@@ -1,4 +1,4 @@
-from global_parameters import *
+from SCvx.global_parameters import *
 
 # Weight constants
 w_nu = 1e5  # virtual control

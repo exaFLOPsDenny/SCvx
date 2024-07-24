@@ -2,7 +2,7 @@ import sympy as sp
 import numpy as np
 import cvxpy as cvx
 from utils import euler_to_quat
-from global_parameters import K
+from SCvx.global_parameters import K
 
 
 def skew(v):

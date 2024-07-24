@@ -3,7 +3,7 @@ import cvxpy as cvx
 import sympy as sp
 import random
 
-from global_parameters import K
+from SCvx.global_parameters import K
 
 
 class Model:
