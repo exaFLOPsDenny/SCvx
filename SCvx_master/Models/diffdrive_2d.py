@@ -1,6 +1,7 @@
 import numpy as np
 import cvxpy as cvx
 import sympy as sp
+import random
 
 from global_parameters import K
 
@@ -33,7 +34,12 @@ class Model:
 
         self.r_scale = self.upper_bound - self.lower_bound
 
-        # cylindrical obstacles [(x,y),r]
+        # Type1. Random location & radius
+        self.obstacles = [
+            [[random.uniform(-10, 10), random.uniform(-10, 10)], random.uniform(0.1, 3)]
+        ]
+        
+        # Type2. Fixed location & radius
         self.obstacles = [
             [[5., 4.], 3.],
             [[-5., -4.], 3.],
